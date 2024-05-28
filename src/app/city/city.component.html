@@ -1,0 +1,31 @@
+<div class="col-12">
+    <img src="assets/city-big-img.png" alt="" class="citybig-img">
+  
+    <div class="col-12 owl-container">
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let item of owl">
+          <ng-template carouselSlide>
+            <div class="position-relative owl-div p-2">
+              <div class="owl-bg-image">
+                <a class="owl-text" routerLink="/all-resturants">{{item.title}}</a>
+              </div>
+               <img [src]="item.img" alt="" class="owl-img">
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  
+    <div class="container d-flex justify-content-center flex-wrap mt-4">
+      <div class="col-sm-7">
+        <img src="assets/home2.png" alt="" class="big-img">
+      </div>
+    </div>
+  
+    <div class="container d-flex justify-content-center flex-wrap">
+      <div class="col-sm-11">
+        <div class="Google-Ads">Google Ads</div>
+      </div>
+    </div>
+  
+  </div>

@@ -1,0 +1,122 @@
+.big-img {
+    width: 100%;
+    height: 400px;
+}
+
+.div-meal{
+    box-shadow: inset 2px -2px 6px lightgray, inset -2px -2px 5px lightgray, inset -5px -4px 13px white;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.div-meal button{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.meal-img {
+    height: 200px;
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.profile {
+    height: 193px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+
+.div-meal button:hover {
+    background-color: #FFBF03;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    left: 7%;
+    top: 60px;
+    border-top: 1px solid lightgrey;
+    padding-top: 7px;
+    display: none;
+}
+
+.menu-title{
+    margin-bottom: 10px;
+}
+
+.menu-title:hover h4:nth-of-type(2):hover {
+    padding-bottom: 60px;
+}
+
+.menu-title:hover h4 ul li {
+    font-size: 17px !important;
+    background-color: rgb(64, 64, 69);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.menu-title h4:nth-of-type(2):hover ul {
+    display: flex;
+}
+
+.menu-title h4:nth-of-type(2):hover::before {
+    position: absolute;
+    content: "";
+    top: 31px;
+    left: 35%;
+    border-color: transparent transparent #FFBF03 transparent;
+    border-width: 14px;
+    border-style: solid;
+}
+
+@media screen and (max-width:700px) {
+
+    .div-profile span h3 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .div-profile span .fs-5 {
+        font-size: 15px !important;
+    }
+
+    .big-img {
+        height: 255px;
+    }
+
+    .profile {
+        height: 100px;
+    }
+
+    .menu-title h4 {
+        font-size: 13px;
+    }
+
+    .menu-title:hover h4:nth-of-type(2) ul li {
+        font-size: 11px !important;
+        background-color: rgb(54, 54, 56);
+        padding: 9px 14px;
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    .menu-title h4:nth-of-type(2):hover ul {
+        left: 0px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .meal-img{
+        height: 225px;
+    }
+}

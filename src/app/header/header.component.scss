@@ -1,0 +1,54 @@
+
+.bg-light{
+    background-color: white !important;
+}
+
+.container{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.logo{
+    height: 60px;
+}
+
+.Google-Ads{
+    padding: 15px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 15px;
+    width: 45vw;
+    text-align: center;
+    color: white !important;
+}
+
+.dropdown-menu,
+.dropdown-toggle{
+    background-color: rgb(48, 48, 48) !important;
+    color: white !important;
+}
+
+.dropdown-toggle{
+    min-width: 10rem;
+    margin-left: 5px;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-item:hover{
+    color: rgb(68, 64, 64) !important;
+}
+.flag{
+    margin-right: 10px;
+    height: 25px;
+}
+
+.dropdown-toggle {
+    background-color: #d3d3d347;
+}
+
+@media screen and (max-width:700px) {
+    .logo{
+        height: 35px;
+    }
+}

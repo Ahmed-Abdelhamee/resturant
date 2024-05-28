@@ -1,0 +1,46 @@
+.big-img,
+.citybig-img {
+    width: 100% !important;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.big-img {
+    max-height: 265px;
+}
+
+.owl-bg-image {
+    height: 80%;
+}
+
+.citybig-img {
+    height: 65vh !important;
+}
+
+.owl-container {
+    margin-top: -160px;
+}
+
+.owl-img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 7px black;
+    height: 240px;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .citybig-img {
+        height: 270px !important;
+    }
+
+    .owl-bg-image {
+        height: 81%;
+    }
+
+    .owl-img {
+        height: 270px;
+    }
+}

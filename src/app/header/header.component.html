@@ -1,0 +1,33 @@
+<div class="col-12 container-fluid bg-light">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap">
+        <div><img src="assets/logo.png" class="logo" alt="" routerLink=""></div>
+        <div class="text-light">
+            <div class="Google-Ads">Google Ads</div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img [src]="flagSrc" class="flag" alt="">{{language}}
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item" (click)="chooseLanguage('assets/amerca.png','English')">
+                    <img src="assets/amerca.png" class="flag" alt="">English
+                </li>
+                <li class="dropdown-item" (click)="chooseLanguage('assets/saudi.png','Arabic')">
+                    <img src="assets/saudi.png" class="flag" alt="">Arabic
+                </li>
+                <!-- <li class="dropdown-item" (click)="chooseLanguage('assets/turky.png','Turkish')">
+                    <img src="assets/turky.png" class="flag" alt="">Turkish
+                </li>
+                <li class="dropdown-item" (click)="chooseLanguage('assets/almond.png','Spanish')">
+                    <img src="assets/almond.png" class="flag" alt="">Spanish
+                </li>
+                <li class="dropdown-item" (click)="chooseLanguage('assets/france.png','French')">
+                    <img src="assets/france.png" class="flag" alt="">French
+                </li>
+                <li class="dropdown-item" (click)="chooseLanguage('assets/roussi.png','Russian')">
+                    <img src="assets/roussi.png" class="flag" alt="">Russian
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</div>
